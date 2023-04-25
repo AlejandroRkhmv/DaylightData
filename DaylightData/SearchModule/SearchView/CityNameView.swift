@@ -31,6 +31,8 @@ struct CityNameView: View {
             VStack {
                 Spacer()
                 Group {
+                    Text("City name")
+                        .customTextModifier()
                     ZStack(alignment: .leading) {
                         if self.cityName.isEmpty {
                             Text("Saratov, Russia")
@@ -39,6 +41,8 @@ struct CityNameView: View {
                         TextField("", text: $cityName)
                             .modifierForTextFields()
                     }
+                    Text("date")
+                        .customTextModifier()
                     ZStack(alignment: .leading) {
                         if self.date.isEmpty {
                             Text("23.01.2023")

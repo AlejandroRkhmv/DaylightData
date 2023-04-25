@@ -31,6 +31,8 @@ struct CoordinatesView: View {
             VStack {
                 Spacer()
                 Group {
+                    Text("latitude")
+                        .customTextModifier()
                     ZStack(alignment: .leading) {
                         TextField("", text: $latitude)
                             .modifierForTextFields()
@@ -39,6 +41,8 @@ struct CoordinatesView: View {
                                 .modifireForPlaceholder()
                         }
                     }
+                    Text("longitude")
+                        .customTextModifier()
                     ZStack(alignment: .leading) {
                         TextField("", text: $longitude)
                             .modifierForTextFields()
@@ -47,6 +51,8 @@ struct CoordinatesView: View {
                                 .modifireForPlaceholder()
                         }
                     }
+                    Text("date")
+                        .customTextModifier()
                     ZStack(alignment: .leading) {
                         TextField("", text: $date)
                             .modifierForTextFields()
@@ -94,5 +100,22 @@ struct CoordinatesView: View {
                 LinearGradient(colors: [Color(ColorEnum.blik.rawValue), Color(ColorEnum.lightShadow.rawValue)], startPoint: .topLeading, endPoint: .bottomTrailing)
             }
         .edgesIgnoringSafeArea(.vertical)
+    }
+}
+
+// MARK: - create text modifier
+struct TextModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(size: 15))
+            .shadow(color: .white, radius: 15, x: 0, y: 0)
+            .foregroundColor(Color(ColorEnum.darkShadow.rawValue))
+    }
+}
+
+// MARK: - create extension
+extension View {
+    func customTextModifier() -> some View {
+        self.modifier(TextModifier())
     }
 }
