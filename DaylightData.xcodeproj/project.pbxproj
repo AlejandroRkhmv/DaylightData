@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212E734C29E0243F0027CADA /* DayLightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E734B29E0243F0027CADA /* DayLightViewModel.swift */; };
+		212E735029E024EA0027CADA /* DayLightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E734F29E024EA0027CADA /* DayLightModel.swift */; };
+		212E735329E025530027CADA /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E735229E025530027CADA /* Storage.swift */; };
+		212E735629E027C20027CADA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E735529E027C20027CADA /* NetworkService.swift */; };
+		212E739829E058DB0027CADA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E739729E058DB0027CADA /* Location.swift */; };
+		2157393E29E54B47008C6662 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157393D29E54B47008C6662 /* SearchViewModel.swift */; };
+		216EF1C129D75C7C00FF79FB /* DaylightDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EF1C029D75C7C00FF79FB /* DaylightDataApp.swift */; };
+		216EF1C329D75C7C00FF79FB /* DayLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EF1C229D75C7C00FF79FB /* DayLightView.swift */; };
+		216EF1C529D75C7D00FF79FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216EF1C429D75C7D00FF79FB /* Assets.xcassets */; };
+		216EF1C829D75C7D00FF79FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216EF1C729D75C7D00FF79FB /* Preview Assets.xcassets */; };
+		216EF1CF29D7605500FF79FB /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EF1CE29D7605500FF79FB /* SunView.swift */; };
+		216EF1D329D779D000FF79FB /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EF1D229D779D000FF79FB /* MoonView.swift */; };
+		21A204D329E19AD400347E1E /* SunTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A204D229E19AD400347E1E /* SunTimesView.swift */; };
+		21A204D529E1A0EE00347E1E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A204D429E1A0EE00347E1E /* SearchView.swift */; };
+		21BE493029D82CDD0095F1A0 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE492F29D82CDD0095F1A0 /* MainTabBarView.swift */; };
+		21BE493329D831400095F1A0 /* ColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE493229D831400095F1A0 /* ColorEnum.swift */; };
+		21BE493529D843430095F1A0 /* CurrentDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE493429D843430095F1A0 /* CurrentDateView.swift */; };
+		21BE493729D84C4E0095F1A0 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE493629D84C4E0095F1A0 /* CustomTabView.swift */; };
+		21BE493B29D861F30095F1A0 /* TwiLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE493A29D861F30095F1A0 /* TwiLightView.swift */; };
+		21C6C73C29E2B2CF00CFE290 /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6C73B29E2B2CF00CFE290 /* CityNameView.swift */; };
+		21C6C73E29E2B2D700CFE290 /* CoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6C73D29E2B2D700CFE290 /* CoordinatesView.swift */; };
+		21C6C74029E2B3B400CFE290 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6C73F29E2B3B400CFE290 /* Coordinator.swift */; };
+		21C6C74229E2B5DC00CFE290 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6C74129E2B5DC00CFE290 /* CoordinatorView.swift */; };
+		21D0249A29E16B340098369E /* SunTimeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0249929E16B340098369E /* SunTimeCreator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212E734B29E0243F0027CADA /* DayLightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLightViewModel.swift; sourceTree = "<group>"; };
+		212E734F29E024EA0027CADA /* DayLightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLightModel.swift; sourceTree = "<group>"; };
+		212E735229E025530027CADA /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		212E735529E027C20027CADA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		212E739729E058DB0027CADA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2157393D29E54B47008C6662 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		216EF1BD29D75C7C00FF79FB /* DaylightData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaylightData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216EF1C029D75C7C00FF79FB /* DaylightDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaylightDataApp.swift; sourceTree = "<group>"; };
+		216EF1C229D75C7C00FF79FB /* DayLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLightView.swift; sourceTree = "<group>"; };
+		216EF1C429D75C7D00FF79FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		216EF1C729D75C7D00FF79FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		216EF1CE29D7605500FF79FB /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		216EF1D229D779D000FF79FB /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
+		21A204D229E19AD400347E1E /* SunTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimesView.swift; sourceTree = "<group>"; };
+		21A204D429E1A0EE00347E1E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		21BE492F29D82CDD0095F1A0 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		21BE493229D831400095F1A0 /* ColorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnum.swift; sourceTree = "<group>"; };
+		21BE493429D843430095F1A0 /* CurrentDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateView.swift; sourceTree = "<group>"; };
+		21BE493629D84C4E0095F1A0 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		21BE493A29D861F30095F1A0 /* TwiLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiLightView.swift; sourceTree = "<group>"; };
+		21C6C73B29E2B2CF00CFE290 /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
+		21C6C73D29E2B2D700CFE290 /* CoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesView.swift; sourceTree = "<group>"; };
+		21C6C73F29E2B3B400CFE290 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		21C6C74129E2B5DC00CFE290 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		21D0249929E16B340098369E /* SunTimeCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimeCreator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216EF1BA29D75C7C00FF79FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212E734929E024070027CADA /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				21BE492F29D82CDD0095F1A0 /* MainTabBarView.swift */,
+				21BE493629D84C4E0095F1A0 /* CustomTabView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		212E734A29E024140027CADA /* DayLightViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				212E734B29E0243F0027CADA /* DayLightViewModel.swift */,
+			);
+			path = DayLightViewModel;
+			sourceTree = "<group>";
+		};
+		212E734D29E0249F0027CADA /* DayLightView */ = {
+			isa = PBXGroup;
+			children = (
+				216EF1C229D75C7C00FF79FB /* DayLightView.swift */,
+				21A204D229E19AD400347E1E /* SunTimesView.swift */,
+				21BE493429D843430095F1A0 /* CurrentDateView.swift */,
+				216EF1CE29D7605500FF79FB /* SunView.swift */,
+				216EF1D229D779D000FF79FB /* MoonView.swift */,
+				21BE493A29D861F30095F1A0 /* TwiLightView.swift */,
+			);
+			path = DayLightView;
+			sourceTree = "<group>";
+		};
+		212E734E29E024D70027CADA /* DayLightModel */ = {
+			isa = PBXGroup;
+			children = (
+				212E734F29E024EA0027CADA /* DayLightModel.swift */,
+			);
+			path = DayLightModel;
+			sourceTree = "<group>";
+		};
+		212E735129E0250C0027CADA /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				212E735229E025530027CADA /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		212E735429E027720027CADA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				212E735529E027C20027CADA /* NetworkService.swift */,
+				21D0249929E16B340098369E /* SunTimeCreator.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		216EF1B429D75C7C00FF79FB = {
+			isa = PBXGroup;
+			children = (
+				216EF1BF29D75C7C00FF79FB /* DaylightData */,
+				216EF1BE29D75C7C00FF79FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		216EF1BE29D75C7C00FF79FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216EF1BD29D75C7C00FF79FB /* DaylightData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216EF1BF29D75C7C00FF79FB /* DaylightData */ = {
+			isa = PBXGroup;
+			children = (
+				216EF1C029D75C7C00FF79FB /* DaylightDataApp.swift */,
+				21BE493129D8312F0095F1A0 /* SupportingFiles */,
+				212E734929E024070027CADA /* MainView */,
+				21BE493829D861840095F1A0 /* DayLightModule */,
+				21A204D129E19A4900347E1E /* SearchModule */,
+				21BE493929D861AC0095F1A0 /* AboutModule */,
+				216EF1C429D75C7D00FF79FB /* Assets.xcassets */,
+				216EF1C629D75C7D00FF79FB /* Preview Content */,
+			);
+			path = DaylightData;
+			sourceTree = "<group>";
+		};
+		216EF1C629D75C7D00FF79FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				216EF1C729D75C7D00FF79FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2192C58629E9C85E0008018E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				21C6C73F29E2B3B400CFE290 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		21A204D129E19A4900347E1E /* SearchModule */ = {
+			isa = PBXGroup;
+			children = (
+				21A204D729E1A10A00347E1E /* SearchView */,
+				21A204D629E1A0F700347E1E /* SearchViewModel */,
+				2192C58629E9C85E0008018E /* Coordinator */,
+			);
+			path = SearchModule;
+			sourceTree = "<group>";
+		};
+		21A204D629E1A0F700347E1E /* SearchViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2157393D29E54B47008C6662 /* SearchViewModel.swift */,
+			);
+			path = SearchViewModel;
+			sourceTree = "<group>";
+		};
+		21A204D729E1A10A00347E1E /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				21C6C74129E2B5DC00CFE290 /* CoordinatorView.swift */,
+				21A204D429E1A0EE00347E1E /* SearchView.swift */,
+				21C6C73B29E2B2CF00CFE290 /* CityNameView.swift */,
+				21C6C73D29E2B2D700CFE290 /* CoordinatesView.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		21BE493129D8312F0095F1A0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				21BE493229D831400095F1A0 /* ColorEnum.swift */,
+				212E739729E058DB0027CADA /* Location.swift */,
+				212E735129E0250C0027CADA /* Storage */,
+				212E735429E027720027CADA /* Service */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		21BE493829D861840095F1A0 /* DayLightModule */ = {
+			isa = PBXGroup;
+			children = (
+				212E734E29E024D70027CADA /* DayLightModel */,
+				212E734A29E024140027CADA /* DayLightViewModel */,
+				212E734D29E0249F0027CADA /* DayLightView */,
+			);
+			path = DayLightModule;
+			sourceTree = "<group>";
+		};
+		21BE493929D861AC0095F1A0 /* AboutModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AboutModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216EF1BC29D75C7C00FF79FB /* DaylightData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216EF1CB29D75C7D00FF79FB /* Build configuration list for PBXNativeTarget "DaylightData" */;
+			buildPhases = (
+				216EF1B929D75C7C00FF79FB /* Sources */,
+				216EF1BA29D75C7C00FF79FB /* Frameworks */,
+				216EF1BB29D75C7C00FF79FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaylightData;
+			productName = DaylightData;
+			productReference = 216EF1BD29D75C7C00FF79FB /* DaylightData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216EF1B529D75C7C00FF79FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					216EF1BC29D75C7C00FF79FB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 216EF1B829D75C7C00FF79FB /* Build configuration list for PBXProject "DaylightData" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 216EF1B429D75C7C00FF79FB;
+			productRefGroup = 216EF1BE29D75C7C00FF79FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216EF1BC29D75C7C00FF79FB /* DaylightData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216EF1BB29D75C7C00FF79FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216EF1C829D75C7D00FF79FB /* Preview Assets.xcassets in Resources */,
+				216EF1C529D75C7D00FF79FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216EF1B929D75C7C00FF79FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2157393E29E54B47008C6662 /* SearchViewModel.swift in Sources */,
+				21A204D329E19AD400347E1E /* SunTimesView.swift in Sources */,
+				21C6C74229E2B5DC00CFE290 /* CoordinatorView.swift in Sources */,
+				21BE493029D82CDD0095F1A0 /* MainTabBarView.swift in Sources */,
+				216EF1C329D75C7C00FF79FB /* DayLightView.swift in Sources */,
+				216EF1D329D779D000FF79FB /* MoonView.swift in Sources */,
+				21BE493729D84C4E0095F1A0 /* CustomTabView.swift in Sources */,
+				216EF1CF29D7605500FF79FB /* SunView.swift in Sources */,
+				21A204D529E1A0EE00347E1E /* SearchView.swift in Sources */,
+				212E735329E025530027CADA /* Storage.swift in Sources */,
+				21C6C73E29E2B2D700CFE290 /* CoordinatesView.swift in Sources */,
+				212E739829E058DB0027CADA /* Location.swift in Sources */,
+				21D0249A29E16B340098369E /* SunTimeCreator.swift in Sources */,
+				21BE493529D843430095F1A0 /* CurrentDateView.swift in Sources */,
+				21C6C74029E2B3B400CFE290 /* Coordinator.swift in Sources */,
+				21BE493329D831400095F1A0 /* ColorEnum.swift in Sources */,
+				212E735029E024EA0027CADA /* DayLightModel.swift in Sources */,
+				21BE493B29D861F30095F1A0 /* TwiLightView.swift in Sources */,
+				21C6C73C29E2B2CF00CFE290 /* CityNameView.swift in Sources */,
+				212E734C29E0243F0027CADA /* DayLightViewModel.swift in Sources */,
+				212E735629E027C20027CADA /* NetworkService.swift in Sources */,
+				216EF1C129D75C7C00FF79FB /* DaylightDataApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		216EF1C929D75C7D00FF79FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		216EF1CA29D75C7D00FF79FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216EF1CC29D75C7D00FF79FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DaylightData/Preview Content\"";
+				DEVELOPMENT_TEAM = KX8766VHZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaylightData/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DayLight app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Do you allow this app to know your current location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do you allow this app to know your current location?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlejandroRkhmv.DaylightData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216EF1CD29D75C7D00FF79FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DaylightData/Preview Content\"";
+				DEVELOPMENT_TEAM = KX8766VHZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaylightData/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DayLight app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Do you allow this app to know your current location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do you allow this app to know your current location?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlejandroRkhmv.DaylightData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216EF1B829D75C7C00FF79FB /* Build configuration list for PBXProject "DaylightData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216EF1C929D75C7D00FF79FB /* Debug */,
+				216EF1CA29D75C7D00FF79FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216EF1CB29D75C7D00FF79FB /* Build configuration list for PBXNativeTarget "DaylightData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216EF1CC29D75C7D00FF79FB /* Debug */,
+				216EF1CD29D75C7D00FF79FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 216EF1B529D75C7C00FF79FB /* Project object */;
+}
